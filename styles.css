@@ -15,6 +15,8 @@ body {
 	background-color: rgb(190, 162, 130);
   }
   .bio{
+	font-size:1.2em;
+	text-align-last: center;
 	color:#c3a38c;
   }
   .pic{
@@ -27,22 +29,23 @@ body {
 	/* height: 150vh; */
 	margin-left: 250px;
 	margin-right: 250px;
-	border: 4px solid rgb(93, 1, 1);
+	border: 4px solid rgb(69, 1, 1);
 }
 .banner{
 	background-color: rgba(17, 1, 24, 0.737);
 	font-family: Arial, Helvetica, sans-serif;
     /* border: 2px solid yellow; */
-	/* width: 30vw; */
+	/* swidth: 30vw; */
 	/* display: flex; */
 	flex: 1;
 	flex-direction: column;
-
+	
   }
 
   .maine{
 	background-color: rgb(27, 59, 65);
-    
+    border-left: 3px;
+	border-color: darkgoldenrod;
 	
 	flex: 2;
   }
@@ -95,4 +98,42 @@ body {
 
   }
   
-  
+  .quote{
+    font-size:1.2em;
+    background-color: #f9f9f9;
+    border-left: 10px solid #cccccc;
+    padding: 10px;
+}
+.skills{
+	color: #cccccc;
+}
+
+.jobs{
+	color:#c3a38c;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-left: 75px;
+	margin-right: 75px;
+	
+}
+
+.bigbox{
+	border-top: 4px solid rgb(255, 206, 206);
+	border-bottom: 4px solid rgb(255, 206, 206);
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+.jobtitle{
+	color: rgb(199, 194, 194);
+	border-bottom: 4px solid rgb(173, 128, 29);
+}
+
+.jobplace{
+	color: rgb(199, 194, 194);
+
+}
+
+.contact{
+	color: #f7d794;
+}
